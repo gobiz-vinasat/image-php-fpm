@@ -4,7 +4,7 @@
 #--------------------------------------------------------------------------
 #
 
-FROM php:8.2-fpm
+FROM php:8.1-fpm
 
 ARG SUPERVISOR_WORKERS=/var/www/html/workers/*.conf
 ENV SUPERVISOR_WORKERS ${SUPERVISOR_WORKERS}
